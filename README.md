@@ -21,7 +21,6 @@ The project's workflow is as follows:
 
 Here's a breakdown of the files in this project:
 - **distance_led_color_changer.ino**: This is the main Arduino sketch file. It contains the setup() and loop() functions. The setup() function initializes the pin modes, and the loop() function reads the distance from the ultrasonic sensor and controls the LEDs accordingly.
-- **README.md**: This file you're currently reading. It provides an overview of the project, its components, and how it works.
 
 I decided to use only red, yellow, and blue LEDs to keep the project simple and focused. These colors are commonly used in traffic signals, making it easy to understand the behavior of the LEDs based on distance. Additionally, using fewer LEDs simplifies the wiring and code.
 
