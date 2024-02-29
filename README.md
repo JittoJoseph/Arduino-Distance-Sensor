@@ -22,7 +22,7 @@ The project's workflow is as follows:
 Here's a breakdown of the files in this project:
 - **distance_led_color_changer.ino**: This is the main Arduino sketch file. It contains the setup() and loop() functions. The setup() function initializes the pin modes, and the loop() function reads the distance from the ultrasonic sensor and controls the LEDs accordingly.
 
-I decided to use only red, yellow, and blue LEDs to keep the project simple and focused. These colors are commonly used in traffic signals, making it easy to understand the behavior of the LEDs based on distance. Additionally, using fewer LEDs simplifies the wiring and code.
+I decided to use only red, yellow, and blue LEDs to keep the project simple and focused.
 
 In terms of design choices, I opted to use the HC-SR04 ultrasonic sensor due to its ease of use and reliability. The Arduino Nano was chosen for its compact size and compatibility with the project's requirements. Overall, the goal was to create a straightforward yet educational project that demonstrates basic concepts of sensor input and LED output control with Arduino.
 
