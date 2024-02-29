@@ -49,5 +49,5 @@ void loop() {
     digitalWrite(blueLedPin, HIGH);
   }
 
-  delay(500);  // Adjust the delay as needed for your project
+  delay(500);  // Adjust the delay as needed, here its 500 milliseconds which is 0.5 seconds
 }
